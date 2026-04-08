@@ -1,0 +1,15 @@
+# MemPalace Project Configuration
+wing: wing_mempalace_dev
+rooms:
+  - name: core
+    keywords: ["cli.py", "config.py", "onboarding.py", "main"]
+  - name: memory_engine
+    keywords: ["miner.py", "searcher.py", "chromadb", "layers.py"]
+  - name: graph_and_mcp
+    keywords: ["mcp_server.py", "knowledge_graph.py", "palace_graph.py", "mcp"]
+  - name: utilities
+    keywords: ["normalize.py", "dialect.py", "spellcheck.py", "split"]
+  - name: tests
+    keywords: ["tests", "pytest", "test_"]
+  - name: docs
+    keywords: ["README.md", "BENCHMARKS.md", "examples"]
